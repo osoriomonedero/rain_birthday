@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rain_happy_birthday</title>
+    <style>
+        body {
+            background-color: pink;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            position: relative;
+            margin: 0;
+            overflow: hidden;
+        }
+        .contenedor {
+            text-align: center;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            font-size: 20px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            position: relative;
+            margin-bottom: 20px;
+            max-width: 60%; /* Ajusta el ancho máximo del contenedor */
+            max-height: 80vh; /* Ajusta la altura máxima del contenedor */
+            overflow-y: auto; /* Agrega un scroll vertical si el contenido es demasiado largo */
+            scrollbar-width: none; /* Ocultar scrollbar en Firefox */
+        }
+        .contenedor::-webkit-scrollbar {
+            display: none; /* Ocultar scrollbar en navegadores basados en WebKit */
+        }
+        .imagenes {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 200px;
+        }
+        .izquierda {
+            left: 10px;
+            margin-left: 20px; /* Ajusta el margen izquierdo para centrar en su espacio lateral */
+        }
+        .derecha {
+            right: 10px;
+            margin-right: 20px; /* Ajusta el margen derecho para centrar en su espacio lateral */
+        }
+        .botones {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        .boton {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            position: relative;
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <img src="st2-removebg-preview.png" alt="Imagen izquierda" class="imagenes izquierda">
+    <div class="contenedor">
+        <p id="texto">To our little princess from daddy and mommy💖✨<br><br>
+
+            ❤️Happy Birthday, our little princess!🎉🎊<br><br>
+            
+            From the first moment you came into our lives, you filled our hearts with joy and wonder. Every laugh😁, every smile, and every sweet thing you do reminds us how precious you are to both of us.<br><br>
+            
+            We admire your kindness, your bright smile⭐, and how well you behave. You make us proud every single day. Your curiosity, the way you learn, and the love❤️ you give to others show what a wonderful girl you are.<br><br>
+            
+            👑 Our little princess 👑<br><br>
+            
+            Even though sometimes Dad is far away, we want you to always remember that you are deeply loved🥰. Distance can never change how much Dad cares about you, and Mom is always by your side cheering for you too. Together, we celebrate🎉🎈 the amazing little person you are.<br><br>
+            
+            Keep being the kind, curious, and brave girl we know. Every smile you share is a gift to us. We are excited to see all the wonderful things you will do, and we will always be here to support you, no matter what.<br><br>
+            
+            With all our love, 🎂Happy birthday🎉<br>  
+            Mom ❤️ and Dad ❤️
+            </p>
+    </div>
+    <div class="botones">
+        <button class="boton normal" onclick="window.location.href='happy_rain_birthday_4.html'">❤️ gift 🎁</button>
+    </div>
+    <img src="st1-removebg-preview.png" alt="Imagen derecha" class="imagenes derecha">
+</body>
+</html>

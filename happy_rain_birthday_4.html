@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rain_happy_birthday</title>
+    <style>
+        body {
+            background-color: pink;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        h1 {
+            font-family: Arial, sans-serif;
+            font-size: 2.5rem;
+            color: black;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+            margin: 0;
+        }
+        img {
+            max-width: 90%;
+            max-height: 80%;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🎁Press me!!❤️</h1>
+
+    <img src="sett-removebg-preview.png" alt="Imagen" onclick="playAudio()">
+
+    <!-- AQUÍ PONES EL NOMBRE DEL AUDIO -->
+    <audio id="audio" src="ttsvibes-stitch-f (2).mp3"></audio>
+
+    <script>
+        function playAudio() {
+            const audio = document.getElementById("audio");
+            audio.currentTime = 0;
+            audio.play();
+        }
+    </script>
+
+</body>
+</html>
